@@ -14,6 +14,7 @@ const DashboardLayout = () => {
           backgroundColor: theme.navBackground,
           paddingTop: 10,
           height: 90,
+          borderColor: theme.iconColor,
         },
         tabBarActiveTintColor: theme.iconColorFocused,
         tabBarInactiveTintColor: theme.iconColor,
@@ -28,9 +29,11 @@ const DashboardLayout = () => {
               size={24}
               name={focused ? "person" : "person-outline"}
               color={focused ? theme.iconColorFocused : theme.iconColor}
-              style={{
-                color: "#e1229b",
-              }}
+              style={
+                {
+                  // color: "#e1229b",
+                }
+              }
             />
           ),
         }}
@@ -44,9 +47,11 @@ const DashboardLayout = () => {
               size={24}
               name={focused ? "book" : "book-outline"}
               color={focused ? theme.iconColorFocused : theme.iconColor}
-              style={{
-                color: "#e1229b",
-              }}
+              style={
+                {
+                  // color: "#e1229b",
+                }
+              }
             />
           ),
         }}
@@ -60,9 +65,11 @@ const DashboardLayout = () => {
               size={24}
               name={focused ? "create" : "create-outline"}
               color={focused ? theme.iconColorFocused : theme.iconColor}
-              style={{
-                color: "#e1229b",
-              }}
+              style={
+                {
+                  // color: "#e1229b",
+                }
+              }
             />
           ),
         }}
